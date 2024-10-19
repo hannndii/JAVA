@@ -4,6 +4,10 @@
  */
 package com.mycompany.publication;
 import java.text.NumberFormat;
+/*Kelas java.text dalam Java menyediakan berbagai kelas dan metode untuk pemformatan dan analisis teks, 
+termasuk pemformatan angka, mata uang, tanggal, dan waktu. Kelas-kelas dalam paket ini membantu dalam mengubah 
+representasi data dalam bentuk string agar sesuai dengan format lokal atau kebutuhan pengguna. */
+
 import java.util.Locale;
 /**
  *
@@ -14,6 +18,7 @@ public class Publication {
     private int price;
     private int page;
     
+    // Locale Indonesia untuk format mata uang (Rp)
     Locale myIndonesianLocal = new Locale("in", "ID");
     NumberFormat formatter = NumberFormat.getCurrencyInstance(myIndonesianLocal);
     
