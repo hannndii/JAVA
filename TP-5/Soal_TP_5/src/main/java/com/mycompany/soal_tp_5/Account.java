@@ -9,9 +9,9 @@ package com.mycompany.soal_tp_5;
  * @author tupog
  */
 abstract class Account {
-    private String number;
-    private String name;
-    private int balance;
+    private final String number;
+    private final String name;
+    private final int balance;
 
     // Constructor
     public Account(String number, String name, int balance) {
