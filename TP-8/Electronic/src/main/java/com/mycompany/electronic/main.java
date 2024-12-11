@@ -17,6 +17,6 @@ public class main {
         tv.turnOff();
 
         audio.turnOn();
-        audio.turnOff();
+        audio.turnOff()
     }
 }
